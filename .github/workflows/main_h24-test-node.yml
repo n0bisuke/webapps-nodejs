@@ -6,7 +6,7 @@ name: Build and deploy Node.js app to Azure Web App - h24-test-node
 on:
   push:
     branches:
-      - node-red
+      - main
   workflow_dispatch:
 
 jobs:
