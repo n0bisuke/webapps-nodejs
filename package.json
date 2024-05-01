@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node node_modules/node-red/red.js",
-    "push": "git add . && git commit -m \"資料更新 - $(date '+%Y-%m-%d %H:%M:%S')\" && git push"
+    "push": "git add . && git commit -m \"資料更新 - $(date '+%Y-%m-%d %H:%M:%S')\" && git push origin"
   },
   "keywords": [],
   "author": "",
